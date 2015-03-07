@@ -1,0 +1,24 @@
+<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/materialize.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/jquery.introLoader.pack.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/animatedModal.min.js" | prepend: site.baseurl }}"></script>
+<script>
+$(document).ready(function(){
+  $('.slider').slider({full_width: true});
+  $('#demo01').animatedModal({color: '#cfa7f2'});
+  $("#element").introLoader({
+    animation: {
+      name: 'doubleLoader',
+      options: {
+        exitFx:'fadeOut',
+        ease: "easeInOutCirc",
+        style: 'fluoMagenta',
+        delayBefore: 500,
+        exitTime: 300,
+        progbarTime: 700,
+        progbarDelayAfter: 400
+      }
+    }
+  })
+});
+</script>

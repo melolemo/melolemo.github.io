@@ -1,0 +1,27 @@
+body {
+  background: #fff;
+}
+.button-collapse {
+  border: none;
+  top: 20px;
+  right: 30px;
+  position: fixed;
+  z-index: 999;
+}
+a.button-collapse {
+ color: #fff;
+}
+.modal-content {
+  width: 90%;
+  margin: 2em auto 0;
+  padding: 2em 0;
+  background: #fff;
+  border-radius: 10px;
+  opacity: .5;
+}
+.modal-content:hover {
+  opacity: .8;
+}
+.modal-content .container {
+  width: 90%;
+}
